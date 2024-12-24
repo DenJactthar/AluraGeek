@@ -1,0 +1,22 @@
+{
+  "productos": [
+    {
+      "nombre": "Bob Esponja Guitarra",
+      "precio": "160",
+      "imagen": "https://disliz.mx/cdn/shop/files/Render-Pin-SB-Guitar.png?v=1719952657",
+      "id": "1"
+    },
+    {
+      "nombre": "Bob Esponja Pizza",
+      "precio": "160",
+      "imagen": "https://disliz.mx/cdn/shop/files/Render-Pin-SB-Pizza_424e1a60-545d-4eb8-88db-e9bf88097e48.png?v=1719952650",
+      "id": "2"
+    },
+    {
+      "nombre": "Patricio",
+      "precio": "120",
+      "imagen": "https://disliz.mx/cdn/shop/files/Render-Pin-Patrick-Chocolate.png?v=1719952664",
+      "id": "3"
+    }
+  ]
+}

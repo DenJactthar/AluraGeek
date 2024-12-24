@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://genfavicon.com/tmp/icon_09660c65e7740e506d7dd7adfe5013cc.ico">
+    <title>AluraGeek - Den</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+            <img src="/imagenes/logo.png" alt="AluraGeek">
+            <p>AluraGeek</p>
+    </header>
+    <main class="contenido">
+        <section class="productos">
+            <h1>MIS PRODUCTOS:</h1>
+            <div data-producto class="seccion_productos">
+                
+            </div>
+        </section>
+        <section class="formulario">
+            <h1>AGREGAR PRODUCTO:</h1>
+            <form class="seccion_formulario" data-form>
+                <input data-name placeholder="nombre" type="text" >
+                <input data-valor placeholder="precio" type="text">
+                <input data-imagem placeholder="imagen" type="link">
+                <div class="botones">
+                    <button type="submit" class="boton_enviar" id="boton">Enviar</button>
+                    <button type="reset" class="boton_limpiar" id="boton">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <div>
+            <img src="/imagenes/logo.png" alt="AluraGeek">
+            <h3>AluraGeek</h3>
+        </div>
+        <p>Desarrollado por Denise Jactthar</p>
+        <p>Alura Latam 2024</p>
+    </footer>
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/catalogo.js"></script>
+    
+</body>
+</html>
